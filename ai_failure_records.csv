@@ -1,0 +1,51 @@
+dataset_name,model_name,input_sample,true_label,predicted_label,error_type,failure_category
+MNIST,LogisticRegression,MNIST_Sample_1,Survived,8,Overfitting,Data quality / noise
+Housing Prices,RandomForest,Housing Prices_Sample_2,5,0,Data Quality Issue,Underfitting
+Housing Prices,CNN,Housing Prices_Sample_3,3,Positive,Overfitting,Data quality / noise
+IMDB Sentiment,LogisticRegression,IMDB Sentiment_Sample_4,5,Positive,Overfitting,Overfitting
+Titanic,DecisionTree,Titanic_Sample_5,8,Positive,Data Quality Issue,Overfitting
+Titanic,DecisionTree,Titanic_Sample_6,5,Positive,Algorithm Limitation,Algorithm limitation
+Housing Prices,DecisionTree,Housing Prices_Sample_7,Negative,Positive,Misclassification,Overfitting
+MNIST,DecisionTree,MNIST_Sample_8,5,Negative,Misclassification,Algorithm limitation
+IMDB Sentiment,LinearRegression,IMDB Sentiment_Sample_9,8,Negative,Misclassification,Overfitting
+Housing Prices,RandomForest,Housing Prices_Sample_10,5,Not Survived,Misclassification,Underfitting
+CIFAR-10,LinearRegression,CIFAR-10_Sample_11,8,Negative,Data Quality Issue,Data quality / noise
+MNIST,DecisionTree,MNIST_Sample_12,8,3,Bias,Bias / misrepresentation
+CIFAR-10,RandomForest,CIFAR-10_Sample_13,Survived,Negative,Misclassification,Data quality / noise
+CIFAR-10,RandomForest,CIFAR-10_Sample_14,Not Survived,Negative,Overfitting,Bias / misrepresentation
+CIFAR-10,LogisticRegression,CIFAR-10_Sample_15,0,Positive,Bias,Overfitting
+IMDB Sentiment,CNN,IMDB Sentiment_Sample_16,Positive,Negative,Misclassification,Underfitting
+Housing Prices,LogisticRegression,Housing Prices_Sample_17,Not Survived,5,Algorithm Limitation,Underfitting
+IMDB Sentiment,LogisticRegression,IMDB Sentiment_Sample_18,Survived,0,Data Quality Issue,Data quality / noise
+Titanic,DecisionTree,Titanic_Sample_19,Survived,Not Survived,Algorithm Limitation,Bias / misrepresentation
+Housing Prices,CNN,Housing Prices_Sample_20,3,5,Algorithm Limitation,Bias / misrepresentation
+MNIST,DecisionTree,MNIST_Sample_21,Negative,5,Data Quality Issue,Underfitting
+CIFAR-10,CNN,CIFAR-10_Sample_22,Positive,Positive,Algorithm Limitation,Underfitting
+CIFAR-10,CNN,CIFAR-10_Sample_23,Positive,8,Misclassification,Overfitting
+Titanic,LinearRegression,Titanic_Sample_24,Negative,5,Algorithm Limitation,Overfitting
+Titanic,LogisticRegression,Titanic_Sample_25,3,Survived,Overfitting,Overfitting
+CIFAR-10,LinearRegression,CIFAR-10_Sample_26,3,Survived,Bias,Data quality / noise
+IMDB Sentiment,CNN,IMDB Sentiment_Sample_27,Positive,Not Survived,Overfitting,Algorithm limitation
+IMDB Sentiment,LogisticRegression,IMDB Sentiment_Sample_28,Positive,0,Misclassification,Bias / misrepresentation
+IMDB Sentiment,RandomForest,IMDB Sentiment_Sample_29,Negative,Survived,Data Quality Issue,Overfitting
+Titanic,LinearRegression,Titanic_Sample_30,Not Survived,8,Bias,Overfitting
+IMDB Sentiment,RandomForest,IMDB Sentiment_Sample_31,3,5,Data Quality Issue,Algorithm limitation
+Housing Prices,CNN,Housing Prices_Sample_32,5,3,Overfitting,Data quality / noise
+MNIST,DecisionTree,MNIST_Sample_33,Positive,Survived,Overfitting,Data quality / noise
+Titanic,CNN,Titanic_Sample_34,Negative,Positive,Bias,Bias / misrepresentation
+MNIST,CNN,MNIST_Sample_35,Survived,Not Survived,Misclassification,Bias / misrepresentation
+MNIST,LinearRegression,MNIST_Sample_36,3,Positive,Bias,Overfitting
+CIFAR-10,RandomForest,CIFAR-10_Sample_37,Positive,0,Misclassification,Data quality / noise
+Titanic,RandomForest,Titanic_Sample_38,Positive,8,Overfitting,Overfitting
+Housing Prices,DecisionTree,Housing Prices_Sample_39,3,3,Bias,Bias / misrepresentation
+Housing Prices,CNN,Housing Prices_Sample_40,Positive,Positive,Overfitting,Data quality / noise
+CIFAR-10,CNN,CIFAR-10_Sample_41,0,5,Algorithm Limitation,Overfitting
+Titanic,LogisticRegression,Titanic_Sample_42,8,Not Survived,Misclassification,Algorithm limitation
+MNIST,LinearRegression,MNIST_Sample_43,5,3,Bias,Data quality / noise
+Housing Prices,LinearRegression,Housing Prices_Sample_44,Survived,Negative,Algorithm Limitation,Overfitting
+IMDB Sentiment,CNN,IMDB Sentiment_Sample_45,8,8,Bias,Data quality / noise
+Housing Prices,DecisionTree,Housing Prices_Sample_46,Survived,3,Bias,Bias / misrepresentation
+MNIST,RandomForest,MNIST_Sample_47,5,5,Overfitting,Data quality / noise
+Titanic,CNN,Titanic_Sample_48,Not Survived,3,Misclassification,Underfitting
+Titanic,LinearRegression,Titanic_Sample_49,Survived,Negative,Bias,Overfitting
+Titanic,CNN,Titanic_Sample_50,8,Negative,Algorithm Limitation,Algorithm limitation
